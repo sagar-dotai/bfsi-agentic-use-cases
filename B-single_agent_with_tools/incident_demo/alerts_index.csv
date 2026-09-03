@@ -1,0 +1,9 @@
+alert_id,severity,service,status
+SIEM-20260902-998,critical,payments,open
+SIEM-20260902-999,high,analytics,open
+SIEM-20260902-1000,critical,core,investigating
+SIEM-20260902-1001,high,dev,mitigated
+SIEM-20260902-1002,medium,frontend,open
+SIEM-20260902-1003,low,batch,closed
+SIEM-20260902-1004,high,platform,open
+SIEM-20260902-1005,high,reporting,open

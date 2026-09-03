@@ -1,0 +1,11 @@
+service,component,control_owner,control_type,notes
+payments,transaction_db,db_team,storage_encryption,"on-prem AES-256, needs cloud KMS integration"
+analytics,etl_storage,analytics_team,retention_policy,"retention 3 years -> update to 7 years"
+reporting,archive_store,platform_team,backup_policy,"backups unencrypted in staging"
+payments,payment_gateway,payments_team,input_validation,"Add schema validation and strict parsing"
+core,auth_service,security_team,access_control,"MFA enforcement and token expiry adjustments"
+crm,customer_service,crm_team,data_masking,"Mask PII in non-prod environments"
+platform,k8s_control,platform_team,config_mgmt,"Ensure role bindings audited and limited"
+integration,third_party_x,vendor_team,third_party_risk,"Review SLA and data processing agreement"
+analytics,pipeline_worker,analytics_team,privilege_separation,"Break monolithic ETL into least-privilege workers"
+reporting,archive_replicas,platform_team,replication_policy,"Ensure replicas in DR are encrypted"

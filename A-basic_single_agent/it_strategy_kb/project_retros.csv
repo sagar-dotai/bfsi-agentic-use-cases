@@ -1,0 +1,9 @@
+project_id,project_name,status,planned_duration_weeks,actual_duration_weeks,delivery_delta_weeks,notes
+PJT-2019-01,CoreBank Upgrade,Completed,52,60,8,"Resourcing shortfall and late vendor deliverables"
+PJT-2020-05,Payments Gateway Modernization,Completed,26,30,4,"Integration complexity underestimated"
+PJT-2021-11,Mobile Banking Revamp,Completed,20,18,-2,"Faster delivery due to parallel squads"
+PJT-2022-07,Data Lake Migration,Completed,40,48,8,"Underestimated data quality remediation"
+PJT-2023-03,API Platform Launch,Completed,16,20,4,"Scope creep for partner integrations"
+PJT-2024-02,Customer360 Integration,Failed,24,30,6,"Vendor mismatch and performance issues"
+PJT-2025-06,Cloud Analytics Proof,Completed,12,12,0,"Pilot met goals; recommended phased rollout"
+PJT-2025-12,DR Multi-Region Setup,In Progress,20,22,2,"Pending regulatory attestations"

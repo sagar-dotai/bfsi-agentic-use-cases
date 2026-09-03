@@ -1,0 +1,12 @@
+app_id,app_name,criticality,hosting,owner,tech_stack,notes
+A100,CoreLedger,High,on-prem,ledger_team,Oracle+Java8,Requires Oracle 11 upgrade
+A110,SettlementEngine,High,on-prem,settlement_team,C+++Proprietary,Legacy batch windows
+A120,FXProcessor,High,VMs+K8s,fx_team,Java11+Kafka,High throughput
+A210,Customer360,High,VMs+k8s,crm_team,Python+Postgres,Monolith, candidate for decomposition
+A220,CRM-Integration,Medium,VMs,crm_team,NodeJS,Third-party connectors
+A300,AnalyticsPipeline,Medium,Hadoop cluster,analytics_team,Scala+HDFS,End of life Hadoop 2.7
+A310,RealtimeStream,High,Kafka+K8s,stream_team,Java+Flink,Needs scaling
+A320,ReportingUI,Medium,VMs,reporting_team,React+Node,Old UI tech
+A400,MobileAPI,High,Cloud,api_team,Go+Postgres,Cloud migration candidate
+A500,LegacyAuth,High,on-prem,security_team,Perl+LDAP,Replace with OIDC
+A510,DataWarehouse,High,Cloud,analytics_team,BigQuery,Audit and retention updates needed

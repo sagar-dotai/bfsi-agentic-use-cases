@@ -1,0 +1,4 @@
+notice_id,regulator,date,summary,deadline
+RG-2026-07,FCA,2026-08-30,"Encryption-at-rest and retention standards: encryption for staging & analytics, key rotation 90 days, retention 7 years",2027-02-28
+RG-2026-11,SEC,2026-07-15,"Incident disclosure timeline update: incidents affecting >10k users must be disclosed within 72 hours",2026-12-31
+RG-2026-19,RBI,2026-09-01,"Sandbox testing standards for third-party fintech integrations; specific data masking requirements",2027-03-31

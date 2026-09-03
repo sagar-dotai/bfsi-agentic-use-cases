@@ -1,0 +1,13 @@
+period,kpi,baseline,current,delta_pct
+2024-Q1,transaction_latency_ms,110,120,9.1
+2024-Q2,uptime_percent,99.97,99.96,-0.01
+2024-Q3,deploy_frequency_per_week,6,5,-16.7
+2024-Q4,mean_time_to_recover_min,18,20,11.1
+2025-Q1,transaction_latency_ms,115,125,8.7
+2025-Q2,uptime_percent,99.96,99.92,-0.04
+2025-Q3,deploy_frequency_per_week,6,4,-33.3
+2025-Q4,mean_time_to_recover_min,20,30,50
+2026-Q1,transaction_latency_ms,120,135,12.5
+2026-Q2,uptime_percent,99.95,99.80,-0.15
+2026-Q3,deploy_frequency_per_week,5,3,-40
+2026-Q3,mean_time_to_recover_min,22,45,104.5

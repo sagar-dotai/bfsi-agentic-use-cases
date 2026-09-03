@@ -1,0 +1,9 @@
+resource_id,avg_cpu_pct,avg_mem_pct,avg_disk_io_mb_s,region
+vm-pay-01,72.5,68.2,30.1,us-east-1
+vm-pay-02,65.2,62.0,24.3,us-east-1
+vm-dev-03,18.4,25.0,5.2,us-east-1
+vm-analyt-02,85.0,76.5,120.0,us-east-1
+vm-stage-01,12.0,18.1,2.5,us-east-1
+vm-batch-11,55.3,48.7,40.0,us-east-1
+cache-01,10.2,5.4,0.8,us-east-1
+es-01,68.0,74.3,95.5,us-east-1

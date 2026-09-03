@@ -1,0 +1,9 @@
+user,role,owner,access_level,last_review_date
+alice.jenkins,PlatformEngineer,platform_team,admin,2026-07-12
+bob.singh,DBA,db_team,admin,2026-03-05
+svc_batch_aurora,ServiceAccount,data_team,service,2025-11-01
+carol.lee,SecurityAnalyst,security_team,read,2026-08-15
+dave.wong,SRE,sre_team,write,2026-06-20
+erin.khan,FinanceAnalyst,finops,read,2026-04-01
+fred.park,Dev,crm_team,write,2025-12-12
+gina.martin,Audit,compliance,read,2026-08-30

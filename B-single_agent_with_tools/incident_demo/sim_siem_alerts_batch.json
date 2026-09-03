@@ -1,0 +1,82 @@
+[
+  {
+    "alert_id":"SIEM-20260902-998",
+    "time":"2026-09-02T03:12:00Z",
+    "rule":"Anomalous-Admin-Login",
+    "host":"prod-app-12.bank.local",
+    "user":"svc_batch_aurora",
+    "source_ip":"203.0.113.45",
+    "details":"Admin console login outside business hours from new IP; MFA bypass attempt flagged",
+    "severity":"critical"
+  },
+  {
+    "alert_id":"SIEM-20260902-999",
+    "time":"2026-09-02T03:20:00Z",
+    "rule":"Data-Exfil-Pattern",
+    "host":"analytics-ingest-02.bank.local",
+    "user":"etl_worker_12",
+    "source_ip":"198.51.100.23",
+    "details":"Large outbound transfer to unknown external IP via S3 API",
+    "severity":"high"
+  },
+  {
+    "alert_id":"SIEM-20260902-1000",
+    "time":"2026-09-02T04:01:00Z",
+    "rule":"Suspicious-Privilege-Escalation",
+    "host":"core-ledger-01.bank.local",
+    "user":"unknown",
+    "source_ip":"192.0.2.77",
+    "details":"New sudo entry for non-admin user; possible lateral movement",
+    "severity":"critical"
+  },
+  {
+    "alert_id":"SIEM-20260902-1001",
+    "time":"2026-09-02T04:15:00Z",
+    "rule":"Malware-Detected",
+    "host":"dev-pay-03.bank.local",
+    "user":"dev_user_7",
+    "source_ip":"203.0.113.88",
+    "details":"Malicious binary detected during EDR scan",
+    "severity":"high"
+  },
+  {
+    "alert_id":"SIEM-20260902-1002",
+    "time":"2026-09-02T05:00:00Z",
+    "rule":"Excessive-Failed-Logins",
+    "host":"web-frontend-09.bank.local",
+    "user":"unknown",
+    "source_ip":"198.51.100.45",
+    "details":"Multiple failed login attempts from several IPs; possible brute force",
+    "severity":"medium"
+  },
+  {
+    "alert_id":"SIEM-20260902-1003",
+    "time":"2026-09-02T05:20:00Z",
+    "rule":"Unusual-Schedule-Job",
+    "host":"batch-worker-21.bank.local",
+    "user":"svc_batch_backup",
+    "source_ip":"10.0.5.12",
+    "details":"Nightly backup job executed 3 hours earlier than scheduled",
+    "severity":"low"
+  },
+  {
+    "alert_id":"SIEM-20260902-1004",
+    "time":"2026-09-02T05:45:00Z",
+    "rule":"Config-Change-Detected",
+    "host":"k8s-control-01.bank.local",
+    "user":"ops_user_2",
+    "source_ip":"203.0.113.99",
+    "details":"Cluster role binding changed; new cluster-admin role for ops_user_2",
+    "severity":"high"
+  },
+  {
+    "alert_id":"SIEM-20260902-1005",
+    "time":"2026-09-02T06:10:00Z",
+    "rule":"Anomalous-Data-Access",
+    "host":"reporting-db-03.bank.local",
+    "user":"analyst_3",
+    "source_ip":"198.51.100.101",
+    "details":"Access to PII data from an analyst not typically assigned to that dataset",
+    "severity":"high"
+  }
+]

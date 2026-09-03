@@ -1,0 +1,11 @@
+finding_id,area,severity,description,affected_assets,recommended_action,owner
+AF-2026-01,privileged_access,High,"3 service accounts no owner, no review schedule","svc_batch_aurora,svc_replica_01","Assign owners; schedule quarterly reviews",IAM
+AF-2026-02,patch_mgmt,Medium,"Delays in monthly patch validation for non-critical servers","web-nonprod-*","Automate patch tests and enforce windows",Ops
+AF-2026-03,config_mgmt,High,"Inconsistent terraform state across regions","infra/terraform/*","Consolidate state and run drift remediation",Platform
+AF-2026-04,identity,High,"Unmanaged orphaned admin users found","admin_* accounts","Run access recertification and remove orphans",IAM
+AF-2026-05,network,Medium,"Unrestricted egress to third-party analytics","analytics-prod","Implement egress filter policies and monitor",Security
+AF-2026-06,logging,Low,"Some apps log PII in debug level","legacy_apps","Sanitize logs and enforce logging policy",Engineering
+AF-2026-07,backup,High,"Backups in staging unencrypted","reporting/archive_store","Enable KMS encryption for backups",Platform
+AF-2026-08,monitoring,Medium,"Alert storms from synthetic tests","Synthetics","Tune alert thresholds and group incidents",SRE
+AF-2026-09,third_party,Medium,"Vendor X access tokens not rotated","vendor_x_prod_api","Rotate tokens and enforce key rotation policy",VendorMgmt
+AF-2026-10,compliance,High,"Data retention schedules not meeting new regulator standard","analytics_etl","Update retention settings to 7 years",Compliance

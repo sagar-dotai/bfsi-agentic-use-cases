@@ -1,0 +1,9 @@
+vendor,score,eu_network_costs,managed_analytics,enterprise_support,proprietary_services,notes
+Cloud-A,82,High,Excellent,Premium,Yes,"Strong analytics, higher network costs in EU; proprietary DB service; good enterprise SLAs"
+Cloud-B,75,Medium,Good,Standard,No,"Good multi-region support; weaker managed analytics; strong KMS"
+Cloud-C,68,Low,Fair,Basic,No,"Cost-effective; limited enterprise support for legacy connectors"
+Cloud-D,80,High,Excellent,Premium,Yes,"Excellent ML/AI platform; higher egress costs in APAC"
+Cloud-E,70,Medium,Good,Standard,No,"Regional provider with strong compliance posture in EMEA"
+Cloud-F,60,Low,Fair,Basic,No,"Budget cloud; lacks large-instance SKUs; limited enterprise support"
+Cloud-G,78,Medium,Good,Premium,Partial,"Good hybrid offering; some proprietary storage APIs"
+Cloud-H,64,High,Fair,Standard,Yes,"Niche provider with specialized analytics, limited enterprise support"

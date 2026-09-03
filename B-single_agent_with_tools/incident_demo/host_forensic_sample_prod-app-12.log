@@ -1,0 +1,5 @@
+[2026-09-02 03:12:21] prod-app-12: sudo:     svc_batch_aurora : TTY=pts/1 ; PWD=/home/svc_batch_aurora ; USER=root ; COMMAND=/bin/ps aux
+[2026-09-02 03:12:23] prod-app-12: sshd[2145]: Accepted publickey for svc_batch_aurora from 203.0.113.45 port 54222 ssh2
+[2026-09-02 03:12:25] prod-app-12: kernel: [    8.123456] CPU: 4 PID: 2148 Comm: suspicious_script Not tainted 5.15.0-101
+[2026-09-02 03:12:30] prod-app-12: audit: USER_CMD pid=2148 uid=1001 auid=1001 ses=2 subj=unconfined_u:unconfined_r:unconfined_t:s0
+[2026-09-02 03:13:02] prod-app-12: docker[3012]: Container abc123 started with command '/usr/local/bin/admin-tool --mfa-bypass'

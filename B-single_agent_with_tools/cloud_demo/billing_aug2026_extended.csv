@@ -1,0 +1,13 @@
+account,service,resource_id,region,cost_usd,usage_hours
+payments-prod,Compute,vm-pay-01,us-east-1,1420.50,720
+payments-prod,Storage,blk-pay-01,us-east-1,320.10,744
+dev-payments,Compute,vm-dev-03,us-east-1,210.00,480
+analytics-prod,BigQuery,sql-01,us-east-1,980.00,300
+payments-prod,DB,db-pay-01,eu-west-1,2400.00,720
+dev-analytics,Compute,vm-analyt-02,us-east-1,120.00,200
+staging-payments,Compute,vm-stage-01,us-east-1,340.00,360
+test-payments,Compute,vm-test-01,us-east-1,45.00,120
+shared-cache,Redis,cache-01,us-east-1,180.00,720
+analytics-prod,Storage,blk-analytics-01,us-east-1,410.00,744
+batch-prod,Compute,vm-batch-11,us-east-1,560.00,720
+search-prod,Elasticsearch,es-01,us-east-1,760.00,720
