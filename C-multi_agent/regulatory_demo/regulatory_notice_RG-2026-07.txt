@@ -1,0 +1,5 @@
+Regulator: Financial Conduct Authority
+Notice ID: RG-2026-07
+Date: 2026-08-30
+Summary: New customer transaction retention and encryption-at-rest standard. Requires encryption of staging and analytics stores, stronger key rotation (90 days), and proof of data retention policies for 7 years.
+Compliance deadline: 2027-02-28

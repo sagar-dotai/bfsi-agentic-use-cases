@@ -1,0 +1,4 @@
+vendor,score,notes
+Cloud-A,82,"Strong analytics, higher network costs in EU; proprietary DB service"
+Cloud-B,75,"Good multi-region support; weaker managed analytics"
+Cloud-C,68,"Cost-effective; limited enterprise support for legacy connectors"

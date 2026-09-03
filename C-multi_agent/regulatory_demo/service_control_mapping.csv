@@ -1,0 +1,4 @@
+service,component,control_owner,control_type,notes
+payments,transaction_db,db_team,storage_encryption,"on-prem AES-256, needs cloud KMS integration"
+analytics,etl_storage,analytics_team,retention_policy,"retention 3 years -> update to 7 years"
+reporting,archive_store,platform_team,backup_policy,"backups unencrypted in staging"

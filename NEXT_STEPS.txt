@@ -1,0 +1,6 @@
+Recommended next steps:
+1) Import the files into Copilot Studio as knowledge base documents and test a KB-only agent first (IT Strategic Decision Support or Cybersecurity Policy Advisor).
+2) For tool-enabled agents, connect sandboxed/test connectors (mock SIEM, mock billing).
+3) For multi-agent orchestration, design the orchestrator and enforce human approval gates between agents.
+
+If you want the ZIP as a base64 blob in-chat, reply "base64" and I'll produce it.

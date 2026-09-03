@@ -1,0 +1,9 @@
+{
+  "alert_id":"SIEM-20260902-998",
+  "time":"2026-09-02T03:12:00Z",
+  "rule":"Anomalous-Admin-Login",
+  "host":"prod-app-12.bank.local",
+  "user":"svc_batch_aurora",
+  "source_ip":"203.0.113.45",
+  "details":"Admin console login outside business hours from new IP; MFA bypass attempt flagged"
+}

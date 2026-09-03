@@ -1,0 +1,3 @@
+finding_id,area,severity,description
+AF-2026-01,privileged_access,High,"3 service accounts no owner, no review schedule"
+AF-2026-02,patch_mgmt,Medium,"Delays in monthly patch validation for non-critical servers"

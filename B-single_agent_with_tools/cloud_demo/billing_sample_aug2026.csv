@@ -1,0 +1,5 @@
+account,service,resource_id,region,cost_usd
+payments-prod,Compute,vm-pay-01,us-east-1,1420.50
+payments-prod,Storage,blk-pay-01,us-east-1,320.10
+dev-payments,Compute,vm-dev-03,us-east-1,210.00
+analytics-prod,BigQuery,sql-01,us-east-1,980.00

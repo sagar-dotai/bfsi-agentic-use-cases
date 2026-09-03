@@ -1,0 +1,4 @@
+app_id,app_name,criticality,hosting,owner,tech_stack
+A100,CoreLedger,High,on-prem,ledger_team,Oracle+Java8
+A210,Customer360,High,VMs+k8s,crm_team,Python+Postgres
+A300,AnalyticsPipeline,Medium,Hadoop cluster,analytics_team,Scala+HDFS
