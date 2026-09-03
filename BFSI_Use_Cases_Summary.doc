@@ -1,0 +1,82 @@
+BFSI Agentic AI Use Cases Summary
+Date: 2026-09-03
+
+Purpose
+This Microsoft Word-compatible summary contains concise descriptions of six prioritized agentic AI use cases for Copilot Studio targeted at BFSI leadership roles (CIO/CTO/CISO, engineering heads, technology strategy & planning). For each use case it lists the purpose, target roles, key capabilities, and the synthetic artifacts available in the repository required to prototype the agent.
+
+Usage
+- Open this file in Microsoft Word (or any Word-compatible editor). The repository contains the actual synthetic artifacts referenced below in folders A-basic_single_agent, B-single_agent_with_tools, and C-multi_agent.
+
+1) IT Strategic Decision Support
+- Target roles: CIO, CTO, Technology Strategy & Planning Head
+- Purpose: Provide evidence-backed recommendations for technology investments, vendor selection, and multi-year roadmaps.
+- Key capabilities: ingest roadmaps, spend history, vendor evaluations, and project retrospectives; produce prioritized multi-year roadmaps, cost estimates, and risk analysis.
+- Required artifacts (repo paths):
+  - A-basic_single_agent/it_strategy_kb/tech_roadmap_2024-2026.md
+  - A-basic_single_agent/it_strategy_kb/vendor_eval_2026_extended.csv
+  - A-basic_single_agent/it_strategy_kb/spend_history_2022_2026.csv
+  - A-basic_single_agent/it_strategy_kb/project_retros.csv
+- Recommended next steps: Build KB-only agent in Copilot Studio using the above files; validate traceability and citation behavior.
+
+2) Cybersecurity Policy Advisor
+- Target roles: CISO, Security Engineering Head
+- Purpose: Draft/update security policies, map internal controls to compliance frameworks, and produce audit checklists.
+- Key capabilities: interpret audit findings, draft policy updates, map controls to ISO/PCI/RBI as needed, and produce evidence checklists.
+- Required artifacts (repo paths):
+  - A-basic_single_agent/security_kb/privileged_access_policy_v2.md
+  - A-basic_single_agent/security_kb/audit_findings_2026_full.csv
+  - A-basic_single_agent/security_kb/user_access_matrix.csv
+- Recommended next steps: Prototype policy-drafting prompts and evaluate by security reviewers.
+
+3) Incident Triage & Remediation Agent
+- Target roles: CISO, Security Engineering, SRE Lead
+- Purpose: Automatically triage security alerts, enrich with threat intelligence, run sandboxed scans, open tickets and produce executive summaries.
+- Key capabilities: parse SIEM alerts, correlate with host logs and CMDB, run automated enrichments, open tickets in ITSM, and summarize incidents for execs.
+- Required artifacts (repo paths):
+  - B-single_agent_with_tools/incident_demo/sim_siem_alerts_batch.json
+  - B-single_agent_with_tools/incident_demo/host_forensic_sample_prod-app-12.log
+  - B-single_agent_with_tools/incident_demo/alerts_index.csv
+  - B-single_agent_with_tools/incident_demo/ticket_template.md
+- Recommended next steps: Connect to a sandbox SIEM connector and validate alert enrichment logic with the batch alerts.
+
+4) Cloud Cost Optimization Agent
+- Target roles: CTO, Engineering Heads, FinOps Lead
+- Purpose: Analyze cloud billing, usage, and IaC to identify rightsizing and waste; optionally propose IaC changes and PRs.
+- Key capabilities: ingest billing CSVs and usage metrics, parse Terraform, recommend rightsizing and scheduling, generate IaC diffs or PR suggestions.
+- Required artifacts (repo paths):
+  - B-single_agent_with_tools/cloud_demo/billing_aug2026_extended.csv
+  - B-single_agent_with_tools/cloud_demo/usage_metrics_aug2026.csv
+  - B-single_agent_with_tools/cloud_demo/terraform_multi_services.tf
+  - B-basic_single_agent/it_strategy_kb/spend_history_2022_2026.csv (for budget constraints)
+- Recommended next steps: Start with cost-savings analysis in sandbox; then create PR templates for IaC changes.
+
+5) Regulatory Change Management Orchestration
+- Target roles: CTO, CISO, Technology Strategy & Planning Head
+- Purpose: Detect regulator notices, analyze impact across systems/controls, produce remediation backlogs, and generate audit-ready reports.
+- Key capabilities: monitor regulator feeds, map obligations to services, create prioritized remediation tasks with owners and deadlines, and compile evidence bundles.
+- Required artifacts (repo paths):
+  - C-multi_agent/regulatory_demo/regulatory_notices_2026.csv
+  - C-multi_agent/regulatory_demo/service_control_mapping_expanded.csv
+  - C-multi_agent/regulatory_demo/compliance_checklist_template.md
+  - C-multi_agent/regulatory_demo/regulatory_notice_RG-2026-07.txt
+- Recommended next steps: Implement RegMonitor and ImpactAnalyzer agents; validate mapping logic with the expanded mapping CSV.
+
+6) Digital Transformation Program Manager (Multi-Agent)
+- Target roles: CIO, CTO, Engineering Heads, Technology Strategy
+- Purpose: Orchestrate large-scale transformation (microservices, cloud-native, event-driven platforms) by discovery, architecture design, delivery orchestration, and risk tracking.
+- Key capabilities: analyze KPIs and app inventory, propose migration waves and architectures, generate epics/sprint plans, and continuously monitor risks.
+- Required artifacts (repo paths):
+  - C-multi_agent/transform_demo/kpi_trends_2024-2026.csv
+  - C-multi_agent/transform_demo/legacy_app_inventory_extended.csv
+  - A-basic_single_agent/it_strategy_kb/project_retros.csv
+- Recommended next steps: Run OpportunityScout and ArchitectureDesigner agents to produce migration waves; iterate with stakeholders.
+
+Appendix: Where to find artifacts
+- Repository URL: https://github.com/sagar-dotai/bfsi-agentic-use-cases
+- Download ZIP: https://github.com/sagar-dotai/bfsi-agentic-use-cases/archive/refs/heads/main.zip
+
+Notes
+- All artifacts are synthetic and intended for prototyping in Copilot Studio. Ensure you treat data as test data and do not use in production.
+- If you need this as a .docx packaged Word file uploaded to the repository root, reply 'upload doc' and I will add it to the repo.
+
+End of document
